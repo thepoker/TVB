@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="e914d9e4-0246-4eac-b4f8-a4719a58bc3d" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>true</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings>
+      <CollectionMapping TypeName="System.Collections.ObjectModel.ObservableCollection`1" Category="List" />
+    </CollectionMappings>
+    <GenerateSerializableTypes>false</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:49956/HotelService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="HotelService.wsdl" MetadataType="Wsdl" ID="b430cce4-7c61-4805-8b6d-27889130d52b" SourceId="1" SourceUrl="http://localhost:49956/HotelService.svc?wsdl" />
+    <MetadataFile FileName="HotelService.xsd" MetadataType="Schema" ID="b94241eb-0cb2-4159-b57d-e5a3c40b26b0" SourceId="1" SourceUrl="http://localhost:49956/HotelService.svc?xsd=xsd2" />
+    <MetadataFile FileName="HotelService1.xsd" MetadataType="Schema" ID="0b6087c5-9743-4c11-adc8-16457dc1a3ce" SourceId="1" SourceUrl="http://localhost:49956/HotelService.svc?xsd=xsd0" />
+    <MetadataFile FileName="HotelService1.wsdl" MetadataType="Wsdl" ID="e6781d2c-f00f-4ae7-b88f-e08dd209da92" SourceId="1" SourceUrl="http://localhost:49956/HotelService.svc?wsdl=wsdl0" />
+    <MetadataFile FileName="HotelService.disco" MetadataType="Disco" ID="38f78c13-4bd9-4e24-b31c-78c170b91ecf" SourceId="1" SourceUrl="http://localhost:49956/HotelService.svc?disco" />
+    <MetadataFile FileName="HotelService2.xsd" MetadataType="Schema" ID="515aec36-c6a9-4450-9dde-4249dbce164d" SourceId="1" SourceUrl="http://localhost:49956/HotelService.svc?xsd=xsd1" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
